@@ -1,10 +1,14 @@
 import React from "react";
 import { Text, View, Button} from "react-native";
+import { useSelector, useDispatch } from "react-redux";
 
 
 const Component_A = (props) => {
-    
+    const myCounter = useSelector(globalState => globalState.counter);
+    const dispatch = useDispatch();
+
     return(
+
         <View style={{backgroundColor: "#eceff1", flex:1}}>
             <Text>Component_A</Text>
             
