@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/san/React-Native-Projects/ReduxReview/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "/home/san/React-Native-Projects/RN_Redux-study/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
                     "source": "/home/san/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/values-in/values-in.xml",
