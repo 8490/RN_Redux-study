@@ -1,1 +1,1 @@
-# RN_Redux-study
+# RN_Random_restaurant_API
