@@ -8,6 +8,9 @@ function reducer(state, action){
             state.counter = state.counter - 1;
             return { ...state}
 
+        case "SET_USERNAME":
+            state.userName = action.payload.newUserName;
+
         default:
             return state;
     }

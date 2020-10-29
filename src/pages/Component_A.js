@@ -20,8 +20,17 @@ const Component_A = (props) => {
                 title = "DECREASE"
                 onPress = {() => dispatch({ type: "DECREASE_COUNTER"})}
             />
+            <Button 
+                title = "SET USER NAME"
+                onPress = {() => dispatch({
+                    type: "SET_USERNAME",
+                    payload: {
+                        newUserName: "Mert"
+                    }
+                })}
+            />
         </View>
-    )
+    );
 };
 
 export default Component_A;
