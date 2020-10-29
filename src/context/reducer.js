@@ -11,6 +11,10 @@ function reducer(state, action){
         case "SET_USERNAME":
             state.userName = action.payload.newUserName;
 
+        case "CONVERT_NUMBER":   
+            
+            state.romanNumber = action.payload.myRomanNumber;
+        
         default:
             return state;
     }

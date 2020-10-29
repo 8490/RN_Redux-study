@@ -1,6 +1,8 @@
 const initialState = {
     counter : 0,
-    userName : "user",
+    userName : "",
+    romanNumber : "",
+
 };
 
 export {initialState};
