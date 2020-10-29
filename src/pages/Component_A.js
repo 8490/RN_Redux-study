@@ -1,12 +1,13 @@
-import React from "react";
-import { Text, View, Button} from "react-native";
+import React, { useState } from "react";
+import { Text, View, Button, TextInput} from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 
 
 const Component_A = (props) => {
+    const [name, setName] = useState("");
     const myCounter = useSelector(globalState => globalState.counter);
     const dispatch = useDispatch();
-
+    
     return(
 
         <View style={{backgroundColor: "#eceff1", flex:1}}>
@@ -20,12 +21,18 @@ const Component_A = (props) => {
                 title = "DECREASE"
                 onPress = {() => dispatch({ type: "DECREASE_COUNTER"})}
             />
+
+            <TextInput
+                placeholder= "Enter your name"
+                onChangeText={(value) => setName(value)}
+            />
+
             <Button 
                 title = "SET USER NAME"
                 onPress = {() => dispatch({
                     type: "SET_USERNAME",
                     payload: {
-                        newUserName: "Mert"
+                        newUserName: name
                     }
                 })}
             />

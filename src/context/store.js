@@ -1,6 +1,6 @@
 const initialState = {
     counter : 0,
-    userName : "user"
+    userName : "user",
 };
 
 export {initialState};
