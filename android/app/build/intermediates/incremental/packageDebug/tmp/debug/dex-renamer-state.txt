@@ -1,4 +1,4 @@
-#Thu Oct 29 17:12:14 TRT 2020
+#Sat Oct 31 00:28:30 TRT 2020
 base.0=/home/san/React-Native-Projects/RN_Redux-study/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

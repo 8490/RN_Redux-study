@@ -156,6 +156,10 @@
         "source": "/home/san/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/home/san/React-Native-Projects/RN_Redux-study/android/app/build/intermediates/res/merged/debug/xml_file_provider_paths.xml.flat",
+        "source": "/home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug/xml/file_provider_paths.xml"
+    },
+    {
         "merged": "/home/san/React-Native-Projects/RN_Redux-study/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/san/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/res/drawable-v21/notification_action_background.xml"
     },

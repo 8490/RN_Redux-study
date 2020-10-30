@@ -31,9 +31,9 @@ public final class R {
         public static final int layoutManager = 0x7f030169;
         public static final int recyclerViewStyle = 0x7f0301ce;
         public static final int reverseLayout = 0x7f0301d1;
-        public static final int spanCount = 0x7f0301fa;
-        public static final int stackFromEnd = 0x7f030200;
-        public static final int ttcIndex = 0x7f030272;
+        public static final int spanCount = 0x7f0301fb;
+        public static final int stackFromEnd = 0x7f030201;
+        public static final int ttcIndex = 0x7f030273;
     }
     public static final class color {
         private color() {}
@@ -134,34 +134,34 @@ public final class R {
         public static final int actions = 0x7f080042;
         public static final int async = 0x7f080048;
         public static final int blocking = 0x7f08004b;
-        public static final int chronometer = 0x7f080059;
-        public static final int dialog_button = 0x7f08006e;
-        public static final int forever = 0x7f080088;
-        public static final int icon = 0x7f080091;
-        public static final int icon_group = 0x7f080092;
-        public static final int info = 0x7f080095;
-        public static final int italic = 0x7f080096;
-        public static final int item_touch_helper_previous_elevation = 0x7f080097;
-        public static final int line1 = 0x7f08009b;
-        public static final int line3 = 0x7f08009c;
-        public static final int normal = 0x7f0800c2;
-        public static final int notification_background = 0x7f0800c3;
-        public static final int notification_main_column = 0x7f0800c4;
-        public static final int notification_main_column_container = 0x7f0800c5;
-        public static final int right_icon = 0x7f0800d4;
-        public static final int right_side = 0x7f0800d5;
-        public static final int tag_accessibility_actions = 0x7f08010a;
-        public static final int tag_accessibility_clickable_spans = 0x7f08010b;
-        public static final int tag_accessibility_heading = 0x7f08010c;
-        public static final int tag_accessibility_pane_title = 0x7f08010d;
-        public static final int tag_screen_reader_focusable = 0x7f08010e;
-        public static final int tag_transition_group = 0x7f08010f;
-        public static final int tag_unhandled_key_event_manager = 0x7f080110;
-        public static final int tag_unhandled_key_listeners = 0x7f080111;
-        public static final int text = 0x7f080114;
-        public static final int text2 = 0x7f080115;
-        public static final int time = 0x7f08011f;
-        public static final int title = 0x7f080120;
+        public static final int chronometer = 0x7f08005d;
+        public static final int dialog_button = 0x7f080072;
+        public static final int forever = 0x7f08008d;
+        public static final int icon = 0x7f080096;
+        public static final int icon_group = 0x7f080097;
+        public static final int info = 0x7f08009a;
+        public static final int italic = 0x7f08009b;
+        public static final int item_touch_helper_previous_elevation = 0x7f08009c;
+        public static final int line1 = 0x7f0800a6;
+        public static final int line3 = 0x7f0800a7;
+        public static final int normal = 0x7f0800cd;
+        public static final int notification_background = 0x7f0800ce;
+        public static final int notification_main_column = 0x7f0800cf;
+        public static final int notification_main_column_container = 0x7f0800d0;
+        public static final int right_icon = 0x7f0800e5;
+        public static final int right_side = 0x7f0800e6;
+        public static final int tag_accessibility_actions = 0x7f08011c;
+        public static final int tag_accessibility_clickable_spans = 0x7f08011d;
+        public static final int tag_accessibility_heading = 0x7f08011e;
+        public static final int tag_accessibility_pane_title = 0x7f08011f;
+        public static final int tag_screen_reader_focusable = 0x7f080120;
+        public static final int tag_transition_group = 0x7f080121;
+        public static final int tag_unhandled_key_event_manager = 0x7f080122;
+        public static final int tag_unhandled_key_listeners = 0x7f080123;
+        public static final int text = 0x7f080126;
+        public static final int text2 = 0x7f080127;
+        public static final int time = 0x7f080131;
+        public static final int title = 0x7f080132;
     }
     public static final class integer {
         private integer() {}
@@ -209,7 +209,7 @@ public final class R {
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f030120, 0x7f030128, 0x7f030129, 0x7f03012a, 0x7f030272 };
+        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x101056f, 0x1010570, 0x7f030120, 0x7f030128, 0x7f030129, 0x7f03012a, 0x7f030273 };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
@@ -236,7 +236,7 @@ public final class R {
         public static final int[] GradientColorItem = { 0x10101a5, 0x1010514 };
         public static final int GradientColorItem_android_color = 0;
         public static final int GradientColorItem_android_offset = 1;
-        public static final int[] RecyclerView = { 0x10100c4, 0x10100eb, 0x10100f1, 0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 0x7f03011d, 0x7f030169, 0x7f0301d1, 0x7f0301fa, 0x7f030200 };
+        public static final int[] RecyclerView = { 0x10100c4, 0x10100eb, 0x10100f1, 0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 0x7f03011d, 0x7f030169, 0x7f0301d1, 0x7f0301fb, 0x7f030201 };
         public static final int RecyclerView_android_orientation = 0;
         public static final int RecyclerView_android_clipToPadding = 1;
         public static final int RecyclerView_android_descendantFocusability = 2;

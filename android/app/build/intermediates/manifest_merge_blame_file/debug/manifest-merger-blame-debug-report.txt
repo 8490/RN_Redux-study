@@ -63,6 +63,24 @@
 37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
 37-->/home/san/React-Native-Projects/RN_Redux-study/android/app/src/main/AndroidManifest.xml:24:7-84
 37-->/home/san/React-Native-Projects/RN_Redux-study/android/app/src/main/AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+38
+39        <provider
+39-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+40            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+40-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+41            android:authorities="com.api.fileprovider"
+41-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+42            android:exported="false"
+42-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+43            android:grantUriPermissions="true" >
+43-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+44            <meta-data
+44-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+46                android:resource="@xml/file_provider_paths" />
+46-->[:react-native-webview] /home/san/React-Native-Projects/RN_Redux-study/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+47        </provider>
+48    </application>
+49
+50</manifest>

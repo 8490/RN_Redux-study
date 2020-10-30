@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import { Text, View, Button, TextInput} from "react-native";
+import { Text, View, Button, TextInput, StyleSheet} from "react-native";
 import { useSelector, useDispatch } from "react-redux";
+//import Video from "react-native-video";
+import { WebView } from 'react-native-webview';
+
 
 
 const Component_A = (props) => {
@@ -69,13 +72,17 @@ const Component_A = (props) => {
                     payload: {
                         myRomanNumber: converter(num)
                     }
-                    
-                    
                 })}
             />
 
+            <WebView source={{ uri: 'https://www.youtube.com/watch?v=hkqkCS5yDK8' }} />
+
+
+
+            {/* <Video source={{ uri: 'http://STREAM_URL/playlist.m3u8' }} /> */}
         </View>
     );
 };
 
 export default Component_A;
+

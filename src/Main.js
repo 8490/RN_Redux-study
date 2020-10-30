@@ -23,8 +23,7 @@ const Main = (props) => {
         <Provider store={ store }>
             <NavigationContainer>
                 <Drawer.Navigator 
-                    initialRouteName="A"
-                    sty>
+                    initialRouteName="A">
                         <Drawer.Screen name="A" component={Component_A} options={{title: "Buttons"}}  />
                         <Drawer.Screen name="B" component={Component_B} options={{title: "View Page"}}/>
                         <Drawer.Screen name="C" component={Component_C} options={{title: "Extra Page"}}/>
