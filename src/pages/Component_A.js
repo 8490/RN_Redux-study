@@ -63,7 +63,7 @@ const Component_A = (props) => {
             />
 
             <Button 
-                title = "CONVERTER TO ROMAN NUMBER"
+                title = "CONVERT TO ROMAN NUMBER"
                 onPress = {() => dispatch({
                     type: "CONVERT_NUMBER",
                     payload: {
